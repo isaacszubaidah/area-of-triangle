@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 150px;
+    height: 35px;
+}
+
+.image {
+    object-fit: cover;
+    width: 300px;
+}
+
+#getArea {
+    width: 150px;
+    height: 42px;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
+}
+
+h3 {
+    color: red;
+    line-height: 0px;
+}
+
+p {
+    color: black;
+    line-height: 0px;
+}
+
+
+label {
+    font-weight: 800;
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    label {
+      display: none;
+    }
+
+    input {
+        width: 300px;
+        height: 35px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #getArea {
+        width: 323px;
+        height: 42px;
+        background: red;
+        border: none;
+        border-radius: 5px;
+        font-weight: 800;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+
+    
+    }
+  }
