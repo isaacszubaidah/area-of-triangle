@@ -57,6 +57,10 @@ label {
     color: black;
 }
 
+#result {
+    color: green;
+}
+
 @media screen and (max-width: 480px) {
     .container {
         display: flex;
@@ -67,7 +71,7 @@ label {
     }
 
     label {
-      display: none;
+        display: none;
     }
 
     input {
@@ -88,6 +92,6 @@ label {
         color: white;
         cursor: pointer;
 
-    
+
     }
-  }
+}
