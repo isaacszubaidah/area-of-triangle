@@ -1,8 +1,8 @@
 
 function calculateArea() {
   //  values from user input
-  const base = parseFloat(document.getElementById('base').value);
-  const height = parseFloat(document.getElementById('height').value);
+let base = parseFloat(document.getElementById('base').value);
+let height = parseFloat(document.getElementById('height').value);
 
   // run a check , if numbers a valid 
   if (isNaN(base) || isNaN(height)) {
@@ -12,7 +12,7 @@ function calculateArea() {
   }
 
   // Calculate area
-  const area = 0.5 * base * height;
+  let area = 0.5 * base * height;
 
   // result : 
   document.getElementById('result').innerHTML = 'Area of the triangle is ' + area;
